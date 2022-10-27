@@ -1,0 +1,24 @@
+@import "styles/abstracts/variables";
+
+.footer {
+  .imprint {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding: 0 5% 25px 5%;
+
+    span {
+      font-family: 'SpaceGrotesk', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 140%;
+      color: #ACACAC;
+      @include md-down {
+        font-size: 11px;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import '/styles/abstracts/variables';
+
+.header {
+	width: 100%;
+	padding: 15px 60px;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	background: #000000;
+	@include tablet-landscape-down {
+		padding: 20px 25px;
+	}
+	@include md-down {
+		padding: 12px 20px;
+	}
+
+	&Wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 1%;
+	}
+}
+
+.logoContainer {
+	img {
+		width: 75px;
+		height: 50px;
+	}
+}
+
+.navigation {
+	ul {
+		margin: 0;
+		padding: 0;
+		display: flex;
+
+	}
+}
