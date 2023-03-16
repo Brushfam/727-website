@@ -5,13 +5,13 @@ const Footer = () => {
         <footer className={footer.footer}>
             <div className={footer.imprint}>
                 <span>
-                    © 2022 727.ventures
+                    © {new Date().getFullYear()} 727.ventures
                 </span>
                 <span>
                     See you soon!
                 </span>
                 <span>
-                    Contact Us: <strong>contact@727.ventures</strong>
+                    Contact us: <strong>contact@727.ventures</strong>
                 </span>
             </div>
 
